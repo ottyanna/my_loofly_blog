@@ -1,6 +1,6 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: minima
+minima:
+  skin: solarized-dark
 title: blof
 author: anna
 description: my loofly bloggity blog

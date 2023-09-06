@@ -5,5 +5,5 @@ description: my loofly bloggity blog
 theme: minima
 
 minima:
-  skin: solarized-dark
+  skin: dark
 

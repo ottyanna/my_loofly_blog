@@ -2,7 +2,7 @@ title: blof
 author: anna
 description: my loofly bloggity blog
 
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark

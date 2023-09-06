@@ -1,6 +1,9 @@
-theme: minima
-minima:
-  skin: solarized-dark
 title: blof
 author: anna
 description: my loofly bloggity blog
+
+theme: minima
+
+minima:
+  skin: solarized-dark
+

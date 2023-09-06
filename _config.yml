@@ -5,5 +5,5 @@ description: my loofly bloggity blog
 remote_theme: jekyll/minima
 
 minima:
-  skin: classic
+  skin: solarized
   date_format: "%-d %b, %Y"

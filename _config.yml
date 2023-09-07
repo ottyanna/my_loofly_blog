@@ -6,3 +6,9 @@ remote_theme: jekyll/minima
 
 minima:
   date_format: "%-d %b, %Y"
+  skin: solarized-dark
+
+#theme: jekyll-theme-minimal
+
+plugins:
+        - jekyll-feed

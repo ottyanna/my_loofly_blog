@@ -8,7 +8,5 @@ minima:
   date_format: "%-d %b, %Y"
   skin: solarized-dark
 
-#theme: jekyll-theme-minimal
-
 plugins:
         - jekyll-feed

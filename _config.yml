@@ -1,8 +1,13 @@
+# Basic site setup
+remote_theme: JakeSteam/minimaJake@1.0.8
 title: blof
 author: anna
 description: my loofly bloggity blog
+accent_colour: "#2a7ae2"
 
-remote_theme: jekyll/minima
+# Optional native feature customisation (delete to turn off)
+table_of_contents_header: "Jump to:"
+
 
 minima:
   date_format: "%-d %b, %Y"

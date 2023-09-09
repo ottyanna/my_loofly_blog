@@ -1,9 +1,21 @@
+accent_colour: "#2a7ae2"
+
+title: blof
+subtitle: Wilkommen Evrynyan
+logo: logo.svg
+author:
+  name: Anna
+  copyright-year: 2023
+  email: anna
+description: > # this means to ignore newlines until "show_excerpts:"
+  my loofly bloggity blog
+banner: drawing.svg
+#baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
+url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: '/my_loofy_blog'
+
 # Basic site setup
 remote_theme: JakeSteam/minimaJake@1.0.8
-title: blof
-author: anna
-description: my loofly bloggity blog
-accent_colour: "#2a7ae2"
 
 # Optional native feature customisation (delete to turn off)
 table_of_contents_header: "Jump to:"

@@ -9,7 +9,7 @@ author:
   email: anna
 description: > # this means to ignore newlines until "show_excerpts:"
   my loofly bloggity blog
-banner: drawing.svg
+banner: banner.svg
 #baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
 url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: '/my_loofy_blog'

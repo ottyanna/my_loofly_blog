@@ -1,14 +1,14 @@
 
 title: blof
 subtitle: Wilkommen Evrynyan
-logo: logo.svg
+logo: logo.png
 author:
   name: Anna
   copyright-year: 2023
   email: anna
 description: > # this means to ignore newlines until "show_excerpts:"
   Welcome to my mind or my loofly bloggity blog (/ˈləʊfli ˈblɒɡɪti blɒɡ/)
-banner: banner.svg
+banner: banner.png
 #baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
 url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: '/my_loofy_blog'

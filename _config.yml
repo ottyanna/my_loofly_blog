@@ -27,5 +27,3 @@ minima:
 
 plugins:
         - jekyll-feed
-		- jekyll-highlight-param
-  		- jekyll-remote-include

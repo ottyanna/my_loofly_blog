@@ -14,13 +14,14 @@ url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol 
 #baseurl: '/my_loofy_blog'
 
 # Basic site setup
-remote_theme: JakeSteam/minimaJake@1.0.8
+#remote_theme: JakeSteam/minimaJake@1.0.8
 
-accent_colour: "#2a7ae2" #This is used in the minimaJake theme
+#accent_colour: "#2a7ae2" #This is used in the minimaJake theme
 
 # Optional native feature customisation (delete to turn off)
-table_of_contents_header: "Jump to:"
+#table_of_contents_header: "Jump to:"
 
+remote_theme: jekyll/minima
 
 minima:
   date_format: "%-d %b, %Y"

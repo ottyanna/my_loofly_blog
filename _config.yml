@@ -1,4 +1,3 @@
-accent_colour: "#2a7ae2"
 
 title: blof
 subtitle: Wilkommen Evrynyan
@@ -8,7 +7,7 @@ author:
   copyright-year: 2023
   email: anna
 description: > # this means to ignore newlines until "show_excerpts:"
-  my loofly bloggity blog
+  Welcome to my mind or my loofly bloggity blog (/ˈləʊfli ˈblɒɡɪti blɒɡ/)
 banner: banner.svg
 #baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
 url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol for your site, e.g. http://example.com
@@ -16,6 +15,8 @@ url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol 
 
 # Basic site setup
 remote_theme: JakeSteam/minimaJake@1.0.8
+
+accent_colour: "#2a7ae2" #This is used in the minimaJake theme
 
 # Optional native feature customisation (delete to turn off)
 table_of_contents_header: "Jump to:"
@@ -27,3 +28,5 @@ minima:
 
 plugins:
         - jekyll-feed
+        - jekyll-remote-include
+        - jekyll-highlight-param

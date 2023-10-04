@@ -85,7 +85,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   h1 {
-    font-weight: bolder;
+    font-weight: lighter;
+    //font-weight: bolder;
     display: block;
     margin-block-start: 0.67rem;
     margin-block-end: 0.67rem;
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   h2 {
-    font-family: $base-font-family;
+    //font-family: $base-font-family;
     display: block;
     font-size: 1.5rem;
     font-style: oblique;
@@ -102,7 +103,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-block-end: 0.83rem;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: lighter;
+    //font-weight: lighter;
+    font-weight: bolder;
+    color: #031d36 ; //subtitle color
   }
 }
 
@@ -133,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
+    //color : #000000 ;
     @include relative-font-size(2.25);
     letter-spacing: 1px;
     float: none;

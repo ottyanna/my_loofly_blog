@@ -7,7 +7,8 @@ author:
   copyright-year: 2023
   email: anna
 description: > # this means to ignore newlines until "show_excerpts:"
-  Welcome to my mind or my loofly bloggity blog (/ˈləʊfli ˈblɒɡɪti blɒɡ/)
+  Hello! Welcome to my loofly bloggity blog (/ˈləʊfli ˈblɒɡɪti blɒɡ/). This blog is meant to group many of the infos 
+  and things I gather and test while hyperfocusing on what I love
 banner: banner.png
 #baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
 url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol for your site, e.g. http://example.com

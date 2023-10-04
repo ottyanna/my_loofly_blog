@@ -1,6 +1,26 @@
+
 title: blof
-author: anna
-description: my loofly bloggity blog
+subtitle: Wilkommen Evrynyan
+logo: logo.png
+author:
+  name: Anna
+  copyright-year: 2023
+  email: anna
+description: > # this means to ignore newlines until "show_excerpts:"
+  Hello! Welcome to my loofly bloggity blog (/ˈləʊfli ˈblɒɡɪti blɒɡ/). This blog is meant to group many of the infos 
+  and things I gather and test while hyperfocusing on what I love
+banner: banner.png
+#baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
+url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: '/my_loofy_blog'
+
+# Basic site setup
+#remote_theme: JakeSteam/minimaJake@1.0.8
+
+#accent_colour: "#2a7ae2" #This is used in the minimaJake theme
+
+# Optional native feature customisation (delete to turn off)
+#table_of_contents_header: "Jump to:"
 
 remote_theme: jekyll/minima
 
@@ -8,7 +28,7 @@ minima:
   date_format: "%-d %b, %Y"
   skin: solarized-dark
 
-#theme: jekyll-theme-minimal
-
 plugins:
         - jekyll-feed
+        - jekyll-remote-include
+        - jekyll-highlight-param

@@ -1,5 +1,5 @@
 ---
-title: "How to remember what you did last time (sewing edition) - Log"
+title: "How to remember what you did last time (sewing edition) - LOG"
 date: 2023-10-04
 #image: /assets/images/logo.png
 layout: post

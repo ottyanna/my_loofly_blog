@@ -6,13 +6,13 @@ date: 2023-09-06
 layout: post
 ---
 
+<!--bundle exec jekyll serve-->
 <!--Babbling Lion Of Fluff-->
 <!-- Hello again evrynyan, how are your cats? -->
 
-> TL;DR
+>TL;DR
 >
->
-> Hello and welcome to all! I'm Anna. This blog will be about the journey of discovering all my interests and hopefully it will be of some help to you.
+>Hello and welcome to all! I'm Anna. This blog will be about the journey of discovering all my interests and hopefully it will be of some help to you.
 
 Hello! I'm Anna and this is the first post on my first blog (You don't say!). 
 
@@ -22,7 +22,7 @@ Having so many interests is a bit problematic because I don't have a lot of time
 
 **Little disclaimers** 
 
-**a)** I'm a bit logorrheic and my thought don't necessarily follow a straight line, so I'll try to be as clear as possible, but when a post states **LOG** in the title, you must know that that post could be more chaotic because it will be a work in progress.
+**a)** I'm a bit logorrheic and my thoughts don't necessarily follow a straight line, so I'll try to be as clear as possible, but when a post states **LOG** in the title, you must know that that post could be more chaotic because it will be a work in progress.
 
 **b)** English is not my first language and I'm not used to write at all, but I think that this will help me get out a bit more and I'm more comfortable writing in English than Italian.I know there will be errors, so please, forgive me in advance. 
 

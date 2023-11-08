@@ -7,7 +7,9 @@ layout: post
 
 Last year I sew a nice overall and now I would like to sew a new one 
 and I'm planning to sew another one in the future. 
-I'll record here a log of what I should always remember, maybe one day it will become a serious post on how to do things right or to avoid mistakes. I'll put advice based on what I need at the end, so you can skip that.
+I'll record here a log of what I should always remember, maybe one day it will become a serious post on how to do things right or to avoid mistakes. 
+
+I'll put advice based on what I need at the end, so you can skip that.
 
 I'm currently using the pattern and instructions from [Stitched in Wonderland](https://stitchedinwonderland.com/product/the-lazy-day-dungas/).
 

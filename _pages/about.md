@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
+title: "About"
 permalink: /about/
+last_modified_at: 2023
 ---
 
 ![Alt text](../assets/images/Anna.JPG "ME")

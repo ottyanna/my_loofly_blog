@@ -1,8 +1,16 @@
 ---
+header:
+    overlay_image: /assets/images/banner.png
+    og_image: /assets/images/banner.png    
 title: "How to remember what you did last time (sewing edition) - LOG"
 date: 2023-10-04
 #image: /assets/images/logo.png
-layout: post
+#layout: post
+#categories:
+#    - Sewing
+tags:
+    - overalls
+excerpt: " "
 ---
 
 Last year I sew a nice overall and now I would like to sew a new one 

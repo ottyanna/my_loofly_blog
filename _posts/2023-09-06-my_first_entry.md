@@ -3,7 +3,20 @@ title: "WELCOME TO MY LOOFLY BLOG"
 #title: "MY FIRST LOOFLY BLOG ENTRY"
 date: 2023-09-06
 #image: /assets/images/logo.png
-layout: post
+layout : single ##????
+#categories:
+#    - First post
+tags:
+    - content
+header: 
+    teaser: "assets/images/cat.svg"
+    #image: "assets/images/cat.svg"
+    overlay_image: /assets/images/cat.svg
+    og_image: /assets/images/cat.svg
+    #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+    #actions:
+    #    - label: "Learn more"
+    #    url: "https://unsplash.com"
 ---
 
 <!--bundle exec jekyll serve-->

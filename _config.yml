@@ -42,44 +42,46 @@ url: 'https://ottyanna.github.io/my_loofly_blog' # the base hostname & protocol 
 # Optional native feature customisation (delete to turn off)
 #table_of_contents_header: "Jump to:"
 
-remote_theme: jekyll/minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-minima:
-  date_format: "%-d %b, %Y"
-  skin: solarized-dark
-
-  # Generate social links in footer.
-  #
-  social_links:
-  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
-  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
-  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-    - { platform: github,         user_url: "https://github.com/ottyanna" }
-  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-    - { platform: instagram,      user_url: "https://www.instagram.com/ottyanna" }
-  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
-  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
-  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
-  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-  #   - { platform: x,              user_url: "https://x.com/jekyllrb" }
-  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-
-# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
-# order as they should show up.
 #
-header_pages:
-        - about.md
-        - portfolio.md
-
-# Set to `true` to show excerpts on the homepage.
+#minima:
+#  date_format: "%-d %b, %Y"
+#  skin: solarized-dark
 #
-show_excerpts: true
-
+#  # Generate social links in footer.
+#  #
+#  social_links:
+#  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+#  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+#  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+#  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+#    - { platform: github,         user_url: "https://github.com/ottyanna" }
+#  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+#    - { platform: instagram,      user_url: "https://www.instagram.com/ottyanna" }
+#  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+#  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+#  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+#  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+#  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+#  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
+#  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+#  #   - { platform: x,              user_url: "https://x.com/jekyllrb" }
+#  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+#
+## If you want to link only specific pages in your header, uncomment this and add the path to the pages in
+## order as they should show up.
+##
+#header_pages:
+#        - about.md
+#        - portfolio.md
+#
+## Set to `true` to show excerpts on the homepage.
+##
+#show_excerpts: true
+#
 plugins:
         - jekyll-feed
         - jekyll-remote-include
         - jekyll-highlight-param
+        - jekyll-include-cache

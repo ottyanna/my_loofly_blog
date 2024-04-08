@@ -12,6 +12,7 @@ header:
     teaser: "assets/images/cat.svg"
     #image: "assets/images/cat.svg"
     overlay_image: /assets/images/cat.svg
+    overlay_filter: 0.2
     og_image: /assets/images/cat.svg
     #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
     #actions:
@@ -29,9 +30,17 @@ header:
 
 Hello! I'm Anna and this is the first post on my first blog (You don't say!). 
 
-At the moment I'm mastering in physics, but it's not what I'm planning to write about in here. I have many interests that span a broad space in the configurations of all possible hobbies/hyperfixations (I love math and parenthesis so much, could you guess?). This hobbies include drawing, sewing, coding, playing tabletop games and many others. Hopefully one day I'll be able to include a search bar and a list of topics in this site (for now I don't think that's a necessary tool).
+At the moment I'm mastering in physics, but it's not what I'm planning to write about in here. I have many interests that span a broad space in the configurations of all possible hobbies/hyperfixations (I love math and parenthesis so much, could you guess?). These hobbies include drawing, sewing, coding, playing tabletop games and many others.
 
-Having so many interests is a bit problematic because I don't have a lot of time and I cannot keep up with everything at the same time. So sometime I spend a week or just a day hyperfixating on that specific thing and then I have to leave it for months. And I'm not so organized: I can note something down then lose it or just forget to write it, so this blog will be a space for me to annotate my thoughts about what I'm doing and I hope it can become a useful or just fun place to read them. 
+Having so many interests is a bit problematic because I don't have a lot of time and I cannot keep up with everything at the same time. So sometimes I spend a week or just a day hyperfixating on that specific thing and then I have to leave it for months. And I'm not so organized: often I take notes but then I lose them or they end up in many different places. Thus this blog will be a space for me to annotate my thoughts about what I'm doing and I hope it can become a useful or just fun place to read them.
+
+The last purpose of this blog is related to my inner curiosity, so I'll try to ask my friends to write here about what they like. So please be aware about the licensing of every post (more of this here).
+
+For more infos on who I am and more about this blog, you can read more on the about page. 
+
+Have a good day!
+
+<!--often I note something down then lose it or just forget to write it, so this blog will be a space for me to annotate my thoughts about what I'm doing and I hope it can become a useful or just fun place to read them.--> 
 
 **Little disclaimers** 
 

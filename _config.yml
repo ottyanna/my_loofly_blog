@@ -44,21 +44,21 @@
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-minimal_mistakes_skin    : "air" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "annadark" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "BLOF"
+locale                   : "en"
+title                    : "Blog of Many Ways" #"ANNA'S BLOF" #quello che compare nel tab
 title_separator          : "-"
-subtitle                 : "Wilkommen Evrynyan"
+subtitle                 : #"Wilkommen Evrynyan"
 name                     : "Anna Spanò"
 description              : "Hello! Welcome to my loofly bloggity blog (/ˈləʊfli ˈblɒɡɪti blɒɡ/). This blog is meant to group many of the infos and things I gather and test while hyperfocusing on what I love"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # now is assets/css/ #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "assets/images/banner.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "BLOF" # overrides the website title displayed in the masthead, use " " for no title
+teaser                   : "assets/images/DrawingTeaser.PNG" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/Title.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : " " #Blog of Many Ways # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -151,9 +151,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"

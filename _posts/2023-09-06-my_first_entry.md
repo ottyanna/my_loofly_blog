@@ -2,6 +2,7 @@
 title: "WELCOME TO MY LOOFLY BLOG"
 #title: "MY FIRST LOOFLY BLOG ENTRY"
 date: 2023-09-06
+show_date: true
 #image: /assets/images/logo.png
 layout : single ##????
 #categories:

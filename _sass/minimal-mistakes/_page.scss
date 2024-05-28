@@ -43,7 +43,7 @@ body {
   //background: linear-gradient(0deg, #abc9e9 0%, #f5bfd7 47%, #caefd7 100%);
   //background: rgb(129, 140, 248);
   //background: linear-gradient(180deg, rgba(129, 140, 248, 1) 0%, #f7969c 47%, #ede342 100%);
-  background: linear-gradient(180deg, $violet-100 0%, #f7969c 47%, #fff672 100%);
+  background: linear-gradient(180deg, $background-color 0%, $background-color-mid 47%, $background-color-end 100%);
   //background-image: url(https://assets-global.website-files.com/64786b619e5c33d650d5499e/64786b629e5c33d650d54a4d_noise_bg.png);
   //background: linear-gradient(180deg, $violet-100 0%, #f7969c 47%, #fff672 100%, url(https://grainy-gradients.vercel.app/noise.svg));
   //filter: contrast(170%) brightness(375%);
@@ -66,7 +66,7 @@ body {
   /* MODIFIED by Anna*/
   .page__inner-wrap {
     float: left;
-    margin-top: -3em;
+    margin-top: 0; //TODO -3em did go over image, but no shows when normal page...
     margin-left: 0;
     margin-right: 0;
     width: 100%;
@@ -74,7 +74,8 @@ body {
 
     .page__content {
       border-radius: 25px;
-      background: #fff;
+      background: rgba(255, 255, 255, 0.8);
+      padding-top: 1em;
       padding-left: 1em;
       padding-right: 1em;
       position: relative;
@@ -87,9 +88,9 @@ body {
     .page__share {
       position: relative;
       float: left;
-      margin-left: 0.5em; //TEST
+      margin-left: 0.5em;
       margin-right: 0;
-      width: 100%; //TEST
+      width: 100%;
       clear: both;
     }
   }
@@ -121,10 +122,13 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  color: $color-title-post; //ADDED by Anna
+  font-family: $sans-serif-narrow; //ADDED by Anna
+  font-size: $type-size-1; //ADDED by Anna //to get a bigger title
 
   a {
-    color: $text-color; //MODIFIED by Anna
-    //color: #fff; //original
+    //color: $text-color; //MODIFIED by Anna
+    color: #fff; //original //non so cosa sia honestly
     text-decoration: none;
   }
 
@@ -272,8 +276,10 @@ body {
     .page__meta,
     .page__lead,
     .btn {
-      color: $text-color;
+      color: $color-title-post; //MODIFIED by Anna
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      font-family: $sans-serif-narrow ; //ADDED by Anna
+      //font-size: $type-size-1; //TODO non riesco a ingrandirlo
     }
 
     .page__lead {
@@ -357,7 +363,7 @@ body {
 .page__meta {
   margin-top: 2em;
   color: $muted-text-color;
-  font-family: $sans-serif;
+  font-family: $sans-serif-narrow; //CHANGED by Anna
   font-size: $type-size-6;
 
   p {

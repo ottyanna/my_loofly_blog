@@ -3,8 +3,17 @@
    ========================================================================== */
 
 .archive {
+
+  // ADDED by Anna: creates a box to contain the elements
+  // TODO in home it breaks in mobile view, forse perchè è grid view
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  //----
+
   margin-top: 1em;
   margin-bottom: 2em;
+  color: $archive-color; //ADDED by Anna
 
   @include breakpoint($large) {
     float: right;
@@ -19,6 +28,11 @@
 }
 
 .archive__item {
+
+  // ADDED by Anna: è come un rientro nel paragrafo
+  // TODO forse sta meglio senza 
+  padding: 1em;
+
   position: relative;
 
   a {
@@ -38,7 +52,7 @@
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -59,7 +73,7 @@
     bottom: 0;
   }
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -76,7 +90,7 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 
@@ -168,8 +182,10 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
+    margin-left: 0;
+    /* override margin*/
+    margin-right: 0;
+    /* override margin*/
     width: span(3 of 12);
 
     &:nth-child(2n + 1) {
@@ -442,7 +458,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -457,7 +473,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }

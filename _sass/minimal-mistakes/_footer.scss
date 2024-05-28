@@ -8,18 +8,20 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  //margin-top: 3em;
+  //margin-top: 3em; //ADDED by Anna, it does create problems
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  color: $background-color; //text color
+  // ADDED by Anna --
+  background: $footer-background-color;
+  color: $footer-color; //text color
   //border-style: double none none none; //TODO: wanna add border?
-  border-color: #f7969c;
-  background: #fff672;
+  //border-color: #f7969c;
   //background: linear-gradient(45deg, #fff672, #f7969c);
   //background: linear-gradient(45deg, $footer-background-color, rgba(0, 0, 0, 0));
   //background: $footer-background-color;
+  //---
 
   footer {
     @include clearfix;

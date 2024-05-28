@@ -1,6 +1,7 @@
 ---
 title: "avoid silly mistakes! c++ LOG"
 date: 2023-10-20
+show_date: true
 #image: /assets/images/logo.png
 #categories:
 #    - Coding
@@ -8,6 +9,7 @@ tags:
     - c++
 excerpt: " "
 ---
+
 
 Trying to implement a list:
 

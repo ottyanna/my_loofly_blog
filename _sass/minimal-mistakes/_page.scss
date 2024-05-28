@@ -33,6 +33,20 @@ body {
 .initial-content,
 .search-content {
   flex: 1 0 auto;
+
+  // ADDED by Anna: creates the gradient in the background
+  //background: rgb(63, 94, 251);
+  //background: linear-gradient(0, rgba(63, 94, 251, 1)0%, rgba(252, 70, 107, 1)100%);
+  //background: rgb(129, 140, 248);
+  //background: linear-gradient(0deg, rgba(129, 140, 248, 1) 0%, rgba(254, 202, 202, 1) 47%, rgba(67, 56, 202, 1) 100%);
+  //background: #abc9e9;
+  //background: linear-gradient(0deg, #abc9e9 0%, #f5bfd7 47%, #caefd7 100%);
+  //background: rgb(129, 140, 248);
+  //background: linear-gradient(180deg, rgba(129, 140, 248, 1) 0%, #f7969c 47%, #ede342 100%);
+  background: linear-gradient(180deg, $violet-100 0%, #f7969c 47%, #fff672 100%);
+  //background-image: url(https://assets-global.website-files.com/64786b619e5c33d650d5499e/64786b629e5c33d650d54a4d_noise_bg.png);
+  //background: linear-gradient(180deg, $violet-100 0%, #f7969c 47%, #fff672 100%, url(https://grainy-gradients.vercel.app/noise.svg));
+  //filter: contrast(170%) brightness(375%);
 }
 
 .page {
@@ -47,6 +61,8 @@ body {
     padding-right: $right-sidebar-width;
   }
 
+
+
   /* MODIFIED by Anna*/
   .page__inner-wrap {
     float: left;
@@ -58,7 +74,7 @@ body {
 
     .page__content {
       border-radius: 25px;
-      background: $primary-color;
+      background: #fff;
       padding-left: 1em;
       padding-right: 1em;
       position: relative;

@@ -48,6 +48,7 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
+  font-family: $oregano; //ADDED by Anna
   font-size: $type-size-5;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
@@ -59,7 +60,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $oregano; //MODIFIED by Anna: changes the title font
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -164,6 +165,15 @@
 }
 
 .grid__item {
+
+  //ADDED by Anna make a box for the posts--
+  //height: 15em; not useful
+  border-style: solid;
+  border-color: $border-color;
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  //--
+
   margin-bottom: 2em;
 
   @include breakpoint($small) {
@@ -213,6 +223,7 @@
   }
 
   .page__meta {
+    font-family: $sans-serif-narrow; //ADDED by Anna
     margin: 0 0 4px;
     font-size: 0.6em;
   }

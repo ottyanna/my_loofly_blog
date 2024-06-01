@@ -167,14 +167,14 @@
 .grid__item {
 
   //ADDED by Anna make a box for the posts--
-  //height: 15em; not useful
+  height: 11em; //TODO: does not work 
   border-style: solid;
   border-color: $border-color;
   border-radius: 1em;
   background-color: rgba(255, 255, 255, 0.5);
   //--
 
-  margin-bottom: 2em;
+  margin-bottom: 2em; //NOTE: this does NOT modify the space under the read time
 
   @include breakpoint($small) {
     float: left;
@@ -237,6 +237,18 @@
   }
 
   .archive__item-title {
+
+    //ADDED by Anna: it triggers the text to hide when there are more than 3 lines
+    //TODO does not work with 1 line!
+    //height: 4em; //does not work
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    text-orientation: upright;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    //---
+
     margin-top: 0.5em;
     font-size: $type-size-5;
   }
@@ -245,7 +257,7 @@
     display: none;
 
     @include breakpoint($medium) {
-      display: block;
+      display: none; //ADDED by Anna
       font-size: $type-size-6;
     }
   }

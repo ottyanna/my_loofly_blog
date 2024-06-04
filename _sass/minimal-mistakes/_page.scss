@@ -283,7 +283,9 @@ body {
     }
 
     .page__lead {
+      font-size: $type-size-6; //ADDED by Anna
       max-width: $medium;
+      font-family: $oregano; //ADDED by Anna
     }
 
     .page__title {

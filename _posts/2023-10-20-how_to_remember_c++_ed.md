@@ -7,7 +7,7 @@ show_date: true
 #    - Coding
 tags:
     - c++
-excerpt: " "
+excerpt: "Bello tutto"
 ---
 
 

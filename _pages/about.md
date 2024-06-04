@@ -1,10 +1,15 @@
 ---
-title: ""
+layout: single
+title: "Chapter About: ....In which it is explained the reason behind this blog"
+excerpt: "In which it is explained the reason behind this blog"
 permalink: /about/
 last_modified_at: 2023-11-10
+#header:
+#    overlay_image: /assets/images/banner.png
+#    og_image: /assets/images/banner.png    
 ---
 
-## About this Blog
+<!--## About this Blog-->
 
 This blog revolves around my actual interests: **creating art, sewing, crocheting, coding, Dungeons and Dragons, Call of Cthulhu** and **Arkham Horror**. Currently it's an **experimental space**, meaning it will undergo continuous changes. The purpose is to document my personal journey with activities I love the most (outside my professional field) and to use it as a tool to consolidate my understanding as I learn new things.
 {: style="text-align: justify;"} 

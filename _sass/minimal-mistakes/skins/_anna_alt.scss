@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Sunrise skin
+   ========================================================================== */
+
+/* Blue violet */
+$blueViolet-100: #9ca3af;
+$blueViolet-200: #6b7280;
+$blueViolet-300: #2563eb;
+
+/* Gray */
+$gray-100: #ffffff;
+$gray-200: #fdfdfd;
+$gray-300: #e5e7eb;
+$gray-400: #dfdfdf;
+$gray-500: #979797;
+$gray-600: #5f6364;
+$gray-700: #000000;
+
+/* Bluish cyan */
+$bluishCyan-100: #1990b8;
+$bluishCyan-200: #0891b2;
+$bluishCyan-300: #0284c7;
+
+/* Purple */
+$purple-100: #d8b4fe;
+$purple-200: #9333ea;
+$purple-300: #7e22ce;
+
+/* Red */
+$red-100: #fecaca;
+$red-200: #ef4444;
+$red-300: #c92c2c;
+$red-400: #dc2626;
+
+/* Orange */
+$orange-100: #a67f59;
+$orange-200: #d97706;
+
+/* Violet */
+$violet-100: #818cf8;
+$violet-200: #4f46e5;
+$violet-300: #4338ca;
+
+/* Blue */
+$blue-100: #bfdbfe;
+$blue-200: #7d8b99;
+$blue-300: #358ccb;
+
+/* Bluish green */
+$bluishGreen-100: #22c55e;
+$bluishGreen-200: #16a34a;
+
+/* Scarlet */
+$scarlet-100: #fbcfe8;
+$scarlet-200: #db2777;
+
+/* Cyan */
+$cyan-100: #0d9488;
+
+/* Greenish cyan */
+$greenishCyan-100: #059669;
+
+/* Khaki */
+$khaki-100: #ca8a04;
+
+/* Magenta */
+$magenta-100: #c026d3;
+
+/* Olive */
+$olive-100: #65a30d;
+
+/* Purple violet */
+$purpleViolet-100: #7c3aed;
+
+/* Scarlet red */
+$scarletRed-100: #e11d48;
+
+/* Vermilion */
+$vermilion-100: #ea580c;
+
+/* Purple magenta */
+$purpleMagenta-100: #f5d0fe;
+$purpleMagenta-200: #d946ef;
+
+/* Grass green */
+$grassGreen-100: #2f9c0a;
+
+// TODO delete colors name and check the others variables
+
+/* Colors */
+//$background-color: #818cf8 !default;
+//$background-color-mid: #f7969c !default;
+//$background-color-end: #fff672 !default;
+$background-color: #6d78d7 !default;
+$background-color-mid: #d68c91 !default;
+//$background-color-end: #ede68f !default;
+$background-color-end: #eddf8f !default;
+$footer-background-color: #fff672 !default;
+$text-color: #273290 !default;
+$footer-color: #273290 !default;
+$author-color: #00005d !default;
+$archive-color: $author-color !default; //also for the home, as it is an archive 
+$dark-gray: #273290;
+$muted-text-color: #2b2d42;
+$masthead-link-color : $author-color !default;
+$primary-color: #aec312ff; //color of the about, lens etc
+$border-color: rgb(242, 255, 144) !default;
+$link-color: $background-color !default;
+$link-color-hover: #c44b8a !default;
+$link-color-visited: #5f38ca !default;
+
+$code-background-color: mix(#fff, $background-color, 90%) !default;
+$code-background-color-dark: mix(#000, $background-color, 10%) !default; //non so a cosa serva..
+$form-background-color: mix(#fff, $background-color, 15%) !default; //idem
+//$color-title-post: #fcecf5 !default;
+$color-title-post: #f1f9fe !default;
+
+/* Colors */
+//$dark-gray: #991c99 !default;
+//$background-color: $violet-100 !default;
+//$text-color: $gray-700 !default;
+//$footer-color: $greenishCyan-100 !default;
+//$muted-text-color: mix(#fff, $dark-gray, 20%) !default;
+//$primary-color: $purpleMagenta-200 !default;
+//$border-color: $scarlet-100 !default;
+//$code-background-color: mix(#fff, $background-color, 60%) !default;
+//$code-background-color-dark: mix(#000, $background-color, 10%) !default;
+//$form-background-color: mix(#fff, $background-color, 15%) !default;
+//$footer-background-color: $red-100 !default;
+//$link-color: $footer-background-color !default;
+//$link-color-hover: $purpleMagenta-200 !default;
+//$link-color-visited: $purpleViolet-100 !default;
+//$masthead-link-color : $greenishCyan-100 !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+/* notices */
+$notice-background-mix: 75% !default;
+
+/* sunrise syntax highlighting (base16) */
+$base00: #1d1f21 !default;
+$base01: #282a2e !default;
+$base02: #373b41 !default;
+$base03: #969896 !default;
+$base04: #b4b7b4 !default;
+$base05: #c5c8c6 !default;
+$base06: #e0e0e0 !default;
+$base07: #ffffff !default;
+$base08: #cc6666 !default;
+$base09: #de935f !default;
+$base0a: #f0c674 !default;
+$base0b: #b5bd68 !default;
+$base0c: #8abeb7 !default;
+$base0d: #81a2be !default;
+$base0e: #b294bb !default;
+$base0f: #a3685a !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* next/previous buttons */
+.pagination--pager {
+  color: $text-color;
+  //background-color: rgba(174, 195, 18, 0.5); //DELETED by Anna, prefer just the border
+  border-color: transparent;
+
+  &:visited {
+    color: $text-color;
+  }
+}

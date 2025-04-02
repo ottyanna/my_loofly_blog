@@ -1,9 +1,9 @@
 ---
 header:
-    overlay_image: /assets/images/Night.png
-    og_image: /assets/images/Night.png    
+    overlay_image: /assets/images/Angela.PNG
+    og_image: /assets/images/Angela.PNG    
     overlay_filter: 0.4
-    teaser: /assets/images/Night.png
+    teaser: /assets/images/Angela.PNG
 title: "Inkscape Tutorial for scientific publishing 🌒"
 date: 2024-05-02
 show_date: true
@@ -21,6 +21,8 @@ tags:
 #excerpt: "Bello quest cos stran"
 license: CC BY
 ---
+
+[Download!!](/assets/images/cat.svg){: .btn .btn--inverse}
 
 This tutorial is aimed at those who wish to use [Inkscape](https://inkscape.org/) to create [scalable vector graphics](https:/en.wikipedia.org/wiki/Scalable_Vector_Graphics) (svg) images to be included in a scientific paper. The following images were the ones I created for my bf’s thesis, so they are not comprehensive, but a good way to start. If you have any request or suggestion, please feel free to comment.......?
 

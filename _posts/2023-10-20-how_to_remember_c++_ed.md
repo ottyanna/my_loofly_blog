@@ -8,6 +8,7 @@ show_date: true
 tags:
     - c++
 excerpt: "Bello tutto"
+author: Simone
 ---
 
 

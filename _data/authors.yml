@@ -1,0 +1,22 @@
+# Authors
+
+Simone:
+  name        : "Simone"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/logo.svg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:billyrick@rick.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://thewhip.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/extravagantman"
+
+
+Cute:
+  avatar      : "/assets/images/logo.svg"
+  name        : "Nice Blog you say?"
+  bio         : "Hello Evrynyan, how are you?"
